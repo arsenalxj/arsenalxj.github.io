@@ -1,0 +1,56 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>乱七八糟 - 分类 - ARSENALXJ</title>
+        <link>https://arsenalxj.github.io/categories/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/</link>
+        <description>乱七八糟 - 分类 - ARSENALXJ</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>arsenalxj@gmail.com (arsenalxj)</managingEditor>
+            <webMaster>arsenalxj@gmail.com (arsenalxj)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 29 Dec 2022 17:25:28 &#43;0800</lastBuildDate><atom:link href="https://arsenalxj.github.io/categories/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/" rel="self" type="application/rss+xml" /><item>
+    <title>Test222</title>
+    <link>https://arsenalxj.github.io/post/test/</link>
+    <pubDate>Thu, 29 Dec 2022 17:25:28 &#43;0800</pubDate>
+    <author>arsenalxj</author>
+    <guid>https://arsenalxj.github.io/post/test/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>模板</title>
+    <link>https://arsenalxj.github.io/post/test2/</link>
+    <pubDate>Thu, 29 Dec 2022 17:25:28 &#43;0800</pubDate>
+    <author>arsenalxj</author>
+    <guid>https://arsenalxj.github.io/post/test2/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Test New</title>
+    <link>https://arsenalxj.github.io/post/test-new/</link>
+    <pubDate>Thu, 29 Dec 2022 17:17:49 &#43;0800</pubDate>
+    <author>arsenalxj</author>
+    <guid>https://arsenalxj.github.io/post/test-new/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Test Blog</title>
+    <link>https://arsenalxj.github.io/post/test-blog/</link>
+    <pubDate>Thu, 29 Dec 2022 17:05:33 &#43;0800</pubDate>
+    <author>arsenalxj</author>
+    <guid>https://arsenalxj.github.io/post/test-blog/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>测试博客</title>
+    <link>https://arsenalxj.github.io/post/%E6%B5%8B%E8%AF%95%E5%8D%9A%E5%AE%A2/</link>
+    <pubDate>Thu, 29 Dec 2022 16:35:45 &#43;0800</pubDate>
+    <author>arsenalxj</author>
+    <guid>https://arsenalxj.github.io/post/%E6%B5%8B%E8%AF%95%E5%8D%9A%E5%AE%A2/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>First Post</title>
+    <link>https://arsenalxj.github.io/post/first-post/</link>
+    <pubDate>Thu, 29 Dec 2022 14:26:07 &#43;0800</pubDate>
+    <author>arsenalxj</author>
+    <guid>https://arsenalxj.github.io/post/first-post/</guid>
+    <description><![CDATA[hello world]]></description>
+</item>
+</channel>
+</rss>
