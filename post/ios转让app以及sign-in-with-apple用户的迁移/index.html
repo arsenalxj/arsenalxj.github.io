@@ -4,33 +4,33 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
-        <title>测试博客 - ARSENALXJ</title><meta name="Description" content="arsenalxj blog"><meta property="og:title" content="测试博客" />
-<meta property="og:description" content="" />
+        <title>关于iOS转让App以及Sign In With Apple用户的迁移 - ARSENALXJ</title><meta name="Description" content="arsenalxj blog"><meta property="og:title" content="关于iOS转让App以及Sign In With Apple用户的迁移" />
+<meta property="og:description" content="​ 前段时间在处理iOS转让App的事情，看了苹果官方的文档和网上一些文章，对整个流程有了大体的了解，但是还是有一些点不是很清楚。经过多方求证" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://arsenalxj.github.io/post/%E6%B5%8B%E8%AF%95%E5%8D%9A%E5%AE%A2/" /><meta property="og:image" content="https://arsenalxj.github.io/logo.png"/><meta property="article:section" content="post" />
+<meta property="og:url" content="https://arsenalxj.github.io/post/ios%E8%BD%AC%E8%AE%A9app%E4%BB%A5%E5%8F%8Asign-in-with-apple%E7%94%A8%E6%88%B7%E7%9A%84%E8%BF%81%E7%A7%BB/" /><meta property="og:image" content="https://arsenalxj.github.io/logo.png"/><meta property="article:section" content="post" />
 <meta property="article:published_time" content="2022-12-29T16:35:45+08:00" />
 <meta property="article:modified_time" content="2022-12-29T16:35:45+08:00" /><meta property="og:site_name" content="ARSENALXJ" />
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://arsenalxj.github.io/logo.png"/>
 
-<meta name="twitter:title" content="测试博客"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:title" content="关于iOS转让App以及Sign In With Apple用户的迁移"/>
+<meta name="twitter:description" content="​ 前段时间在处理iOS转让App的事情，看了苹果官方的文档和网上一些文章，对整个流程有了大体的了解，但是还是有一些点不是很清楚。经过多方求证"/>
 <meta name="application-name" content="ARSENALXJ">
 <meta name="apple-mobile-web-app-title" content="ARSENALXJ"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://arsenalxj.github.io/post/%E6%B5%8B%E8%AF%95%E5%8D%9A%E5%AE%A2/" /><link rel="prev" href="https://arsenalxj.github.io/post/ios%E8%BD%AC%E8%AE%A9app%E4%BB%A5%E5%8F%8Asign-in-with-apple%E7%94%A8%E6%88%B7%E7%9A%84%E8%BF%81%E7%A7%BB/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://arsenalxj.github.io/post/ios%E8%BD%AC%E8%AE%A9app%E4%BB%A5%E5%8F%8Asign-in-with-apple%E7%94%A8%E6%88%B7%E7%9A%84%E8%BF%81%E7%A7%BB/" /><link rel="next" href="https://arsenalxj.github.io/post/%E6%B5%8B%E8%AF%95%E5%8D%9A%E5%AE%A2/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
-        "headline": "测试博客",
+        "headline": "关于iOS转让App以及Sign In With Apple用户的迁移",
         "inLanguage": "zh-CN",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https:\/\/arsenalxj.github.io\/post\/%E6%B5%8B%E8%AF%95%E5%8D%9A%E5%AE%A2\/"
-        },"image": ["https:\/\/arsenalxj.github.io\/images\/Apple-Devices-Preview.png"],"genre": "post","keywords": "SDK 接入","wordcount":  0 ,
-        "url": "https:\/\/arsenalxj.github.io\/post\/%E6%B5%8B%E8%AF%95%E5%8D%9A%E5%AE%A2\/","datePublished": "2022-12-29T16:35:45+08:00","dateModified": "2022-12-29T16:35:45+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+            "@id": "https:\/\/arsenalxj.github.io\/post\/ios%E8%BD%AC%E8%AE%A9app%E4%BB%A5%E5%8F%8Asign-in-with-apple%E7%94%A8%E6%88%B7%E7%9A%84%E8%BF%81%E7%A7%BB\/"
+        },"image": ["https:\/\/arsenalxj.github.io\/images\/Apple-Devices-Preview.png"],"genre": "post","keywords": "iOS","wordcount":  723 ,
+        "url": "https:\/\/arsenalxj.github.io\/post\/ios%E8%BD%AC%E8%AE%A9app%E4%BB%A5%E5%8F%8Asign-in-with-apple%E7%94%A8%E6%88%B7%E7%9A%84%E8%BF%81%E7%A7%BB\/","datePublished": "2022-12-29T16:35:45+08:00","dateModified": "2022-12-29T16:35:45+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
             "@type": "Organization",
             "name": "xxxx","logo": "https:\/\/arsenalxj.github.io\/images\/avatar.png"},"author": {
                 "@type": "Person",
@@ -98,7 +98,25 @@
     <div class="search-dropdown mobile">
         <div id="search-dropdown-mobile"></div>
     </div><main class="main">
-                <div class="container"><div class="page single special"><h1 class="single-title animate__animated animate__pulse animate__faster">测试博客</h1><div class="content" id="content"></div><div id="comments"><div id="valine" class="comment"></div><noscript>
+                <div class="container"><div class="page single special"><h1 class="single-title animate__animated animate__pulse animate__faster">关于iOS转让App以及Sign In With Apple用户的迁移</h1><div class="content" id="content"><p>​	前段时间在处理iOS转让App的事情，看了苹果官方的文档和网上一些文章，对整个流程有了大体的了解，但是还是有一些点不是很清楚。经过多方求证和实际操作，记录一下。</p>
+<p>流程啥的不说了，可以参考以下链接，这里只记录一些点。</p>
+<p><a href="https://juejin.cn/post/7140823445423521806" target="_blank" rel="noopener noreffer ">iOS APP 转让避坑指南 - 掘金 (juejin.cn)</a></p>
+<p><a href="https://www.jianshu.com/p/f598ae3f78ed" target="_blank" rel="noopener noreffer ">iOS App的转让/迁移和接收流程 - 简书 (jianshu.com)</a></p>
+<p><a href="https://www.jianshu.com/p/aad66d49553e" target="_blank" rel="noopener noreffer ">iOS，Sign in with apple transfer - 简书 (jianshu.com)</a></p>
+<h4 id="在新账号那边点击接受后多久能完成转让">在新账号那边点击接受后，多久能完成转让</h4>
+<p>在网上看的文章，有些说很快，有些说要等一两天。实际操作后，我这边是马上生效的，应该是没有审核的。在旧账号那边点击转让，马上就能在新账号那边看到，点击接受后，马上就生效了。</p>
+<h4 id="转让完成后玩家通过sign-in-with-apple登录获取到-identifier-值">转让完成后，玩家通过Sign In With Apple登录获取到 identifier 值</h4>
+<p>这个值在转让完成后，立刻就会改变。如果不做用户迁移的工作，用户会找不回来之前的账号。我们为了不影响用户，是做了次停服。</p>
+<h4 id="为玩家转换得到新的-identifier这个过程有没有办法测试">为玩家转换得到新的 identifier，这个过程有没有办法测试</h4>
+<p>据我了解是没有的，我们最终也没有测试，只能说是相信苹果。</p>
+<p>转换的过程分两步：旧的identifier -&gt; 中间值 -&gt; 新的identifier</p>
+<p>第一步 <a href="https://developer.apple.com/documentation/sign_in_with_apple/transferring_your_apps_and_users_to_another_team/" target="_blank" rel="noopener noreffer ">Transferring your apps and users to another team | Apple Developer Documentation</a></p>
+<p>第二步 <a href="https://developer.apple.com/documentation/sign_in_with_apple/bringing_new_apps_and_users_into_your_team" target="_blank" rel="noopener noreffer ">Bringing new apps and users into your team | Apple Developer Documentation</a></p>
+<p>第二步只能在转让App完成后执行，因为需要一个key，而这个key要在转让完成后才能生成。我看网上有些人好像可以提前创建app来获取这个key，这个我不懂怎么操作。</p>
+<p>所以第二步无法测试。</p>
+<p>这里还有一点，一般旧的identifier都有三段，类似 xxx.xxx.xxx 这样的结构，第一步得到的中间值只有两段，xxx.xxx，这个跟苹果文档里面的不一样，一度怀疑是不是我们搞错了。最后得不到答案，只能硬着头皮上了。</p>
+<p>还有，我们实际执行过程中，发现请求接口的速度过慢，应该是苹果那边做了频率限制，我们就开多了几个进程去跑，就快了很多。</p>
+</div><div id="comments"><div id="valine" class="comment"></div><noscript>
                 Please enable JavaScript to view the comments powered by <a href="https://valine.js.org/">Valine</a>.
             </noscript></div></div></div>
             </main></div>
