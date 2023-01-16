@@ -4,53 +4,13 @@
         <link>https://arsenalxj.github.io/tags/sdk-%E6%8E%A5%E5%85%A5/</link>
         <description>SDK 接入 - 标签 - ARSENALXJ</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>arsenalxj@gmail.com (arsenalxj)</managingEditor>
-            <webMaster>arsenalxj@gmail.com (arsenalxj)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 29 Dec 2022 17:25:28 &#43;0800</lastBuildDate><atom:link href="https://arsenalxj.github.io/tags/sdk-%E6%8E%A5%E5%85%A5/" rel="self" type="application/rss+xml" /><item>
-    <title>Test222</title>
-    <link>https://arsenalxj.github.io/post/test/</link>
-    <pubDate>Thu, 29 Dec 2022 17:25:28 &#43;0800</pubDate>
-    <author>arsenalxj</author>
-    <guid>https://arsenalxj.github.io/post/test/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>模板</title>
-    <link>https://arsenalxj.github.io/post/test2/</link>
-    <pubDate>Thu, 29 Dec 2022 17:25:28 &#43;0800</pubDate>
-    <author>arsenalxj</author>
-    <guid>https://arsenalxj.github.io/post/test2/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Test New</title>
-    <link>https://arsenalxj.github.io/post/test-new/</link>
-    <pubDate>Thu, 29 Dec 2022 17:17:49 &#43;0800</pubDate>
-    <author>arsenalxj</author>
-    <guid>https://arsenalxj.github.io/post/test-new/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Test Blog</title>
-    <link>https://arsenalxj.github.io/post/test-blog/</link>
-    <pubDate>Thu, 29 Dec 2022 17:05:33 &#43;0800</pubDate>
-    <author>arsenalxj</author>
-    <guid>https://arsenalxj.github.io/post/test-blog/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
+            <webMaster>arsenalxj@gmail.com (arsenalxj)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 29 Dec 2022 16:35:45 &#43;0800</lastBuildDate><atom:link href="https://arsenalxj.github.io/tags/sdk-%E6%8E%A5%E5%85%A5/" rel="self" type="application/rss+xml" /><item>
     <title>测试博客</title>
     <link>https://arsenalxj.github.io/post/%E6%B5%8B%E8%AF%95%E5%8D%9A%E5%AE%A2/</link>
     <pubDate>Thu, 29 Dec 2022 16:35:45 &#43;0800</pubDate>
     <author>arsenalxj</author>
     <guid>https://arsenalxj.github.io/post/%E6%B5%8B%E8%AF%95%E5%8D%9A%E5%AE%A2/</guid>
     <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>First Post</title>
-    <link>https://arsenalxj.github.io/post/first-post/</link>
-    <pubDate>Thu, 29 Dec 2022 14:26:07 &#43;0800</pubDate>
-    <author>arsenalxj</author>
-    <guid>https://arsenalxj.github.io/post/first-post/</guid>
-    <description><![CDATA[hello world]]></description>
 </item>
 </channel>
 </rss>
